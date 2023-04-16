@@ -1,0 +1,109 @@
+/* hero section  */
+
+@media screen and (min-width: 768px) {
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .hero-content h1 {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .hero-content h1 {
+        font-size: 3rem;
+    }
+}
+
+
+/* crypto  */
+
+@media only screen and (min-device-width: 409px) and (max-device-width:767px) {
+    #crypto {
+        margin-top: 10rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #crypto h2 {
+        font-size: 2rem;
+    }
+}
+
+
+/* crypto-stats */
+
+@media screen and (min-width: 768px) {
+    #crypto-stats h2 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    #crypto-stats h2 {
+        font-size: 2.5rem;
+        width: 70%;
+    }
+
+    #crypto-stats p {
+        width: 70%;
+    }
+}
+
+
+/* subsribe  */
+
+@media screen and (min-width: 768px) {
+    #subscribe h2 {
+        font-size: 2rem;
+    }
+
+    .sub-form {
+        position: relative;
+    }
+
+    .sub-form input {
+        width: 30rem;
+    }
+
+    .sub-form a {
+        position: absolute;
+        right: 2%
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #subscribe p {
+        width: 80%;
+    }
+}
+
+
+/* footer  */
+
+@media screen and (min-width: 768px) {
+    .foot-branding {
+        width: 40%;
+    }
+
+    .footlinks {
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .foot-branding {
+        width: 25%;
+    }
+
+    .footlinks {
+        width: 15%;
+    }
+
+    .social-links {
+        width: 30%;
+    }
+}

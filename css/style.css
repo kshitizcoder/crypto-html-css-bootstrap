@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--dark);
+}
+
+
+/* colors  */
+
+:root {
+    /* --primary: #095dc7; */
+    --extra-dark: #151515;
+    --drak-green: #42DDA7;
+    --light-green: #3F6A5C;
+    --pure: #ffffff;
+    --dark: #151515;
+    --light: #969696;
+    --graident: linear-gradient(to right, #3FE8AB, #78CDCD);
+    --gradient-blur: linear-gradient(to right, #3FE8AB 20%, #78CDCD 20%);
+    --extra-light: #383F3E;
+}
+
+*::selection {
+    background: #3FE8AB;
+    color: var(--pure);
+}
+
+
+/* common classes */
+
+h1,
+h2,
+h3,
+h4 {
+    color: var(--pure);
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    color: var(--light);
+}
+
+section {
+    padding: 2rem 1rem;
+}
+
+
+/* button style  */
+
+.primary-btn {
+    background: var(--graident);
+    color: var(--dark);
+    padding: .5rem 2rem;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: .2rem;
+}
+
+.primary-btn:hover {
+    background: transparent;
+    color: var(--pure);
+}
+
+
+/* NavBar */
+
+.navbar-brand img {
+    width: 85%;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.nav-item .nav-link {
+    color: var(--pure);
+    transition: all .3s ease;
+    margin-right: 1.5rem;
+}
+
+.nav-item .nav-link:hover {
+    color: #3FE8AB;
+}
+
+.active {
+    color: var(--pure) !important;
+}
+
+.active:hover {
+    color: #3FE8AB !important;
+}
+
+.login-btn {
+    padding: .5rem 2rem;
+    transition: all .3s ease;
+    text-decoration: none;
+    border-radius: .2rem;
+}
+
+.login-btn:hover {
+    background: var(--graident);
+    color: var(--dark) !important;
+}
+
+
+/* hero section  */
+
+.banner {
+    height: 90vh;
+}
+
+.hero-content {
+    margin-top: 3rem;
+}
+
+.hero-content h1 {
+    font-size: 1.5rem;
+}
+
+.hero-content p {
+    font-size: .9rem;
+    margin: 1.5rem 0;
+}
+
+
+/* current crpto  */
+
+#crypto h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.crpto-warpper {
+    border: 2px solid var(--extra-light);
+    padding: 3rem .5rem 4rem .5rem;
+    border-radius: 1rem;
+}
+
+.crpto-warpper img {
+    border: 2px solid var(--extra-light);
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.crpto-warpper strong {
+    margin: 1.5rem 0;
+    color: var(--drak-green);
+}
+
+.buyNow-btn {
+    background: transparent;
+    border: 2px solid var(--light-green);
+    padding: .5rem 2rem;
+    text-decoration: none;
+    border-radius: .5rem;
+    color: var(--pure);
+    transition: all .3s ease-in !important;
+}
+
+.buyNow-btn:hover {
+    background: var(--drak-green);
+    border: 2px solid var(--drak-green);
+    color: var(--dark);
+}
+
+.crpto-warpper h3 {
+    margin-top: 1rem;
+}
+
+
+/* crypto-stats */
+
+#crypto-stats h2 {
+    font-size: 1.5rem;
+}
+
+
+/* subscibe  */
+
+#subscribe {
+    margin-top: 4rem;
+}
+
+#subscribe h2 {
+    font-size: 1.5rem;
+}
+
+#subscribe p {
+    font-size: .9rem;
+}
+
+.sub-form input:focus {
+    outline: none !important;
+}
+
+.sub-form input {
+    background-color: var(--extra-dark);
+    padding: .7rem 1rem;
+    border: 2px solid var(--extra-light);
+    border-radius: .3rem;
+    caret-color: var(--pure);
+    color: var(--pure);
+}
+
+
+/* footer */
+
+#footer {
+    padding: 1rem;
+    margin-top: 4rem;
+}
+
+.footlinks ul li {
+    list-style: none;
+    color: var(--pure);
+    margin-left: -2rem;
+}
+
+.social-icons .fa-brands {
+    color: var(--pure);
+    font-size: 1rem;
+    margin-right: 1rem;
+    border: 2px solid var(--extra-light);
+    padding: 1rem;
+    margin-top: 1rem;
+    transition: all .3s ease-out;
+    border-radius: .2rem;
+}
+
+.social-icons .fa-brands:hover {
+    background: var(--drak-green);
+    border: 2px solid var(--drak-green);
+}
